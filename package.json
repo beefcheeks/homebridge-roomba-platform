@@ -1,0 +1,40 @@
+{
+    "name": "homebridge-roomba-platform",
+    "version": "0.1.0",
+    "description": "A platform-friendly Roomba homebridge plugin",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/baronomasia/homebridge-roomba-platform.git"
+    },
+    "keywords": [
+        "homebridge",
+        "roomba",
+        "irobot",
+        "dorita980",
+        "i3",
+        "i4",
+        "i6",
+        "i7"
+    ],
+    "author": "Ryan Staatz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/baronomasia/homebridge-roomba-platform/issues"
+    },
+    "homepage": "https://github.com/baronomasia/homebridge-roomba-platform#readme",
+    "devDependencies": {
+        "eslint-config-prettier": "^8.1.0",
+        "prettier": "2.2.1"
+    },
+    "dependencies": {
+        "dorita980": "^3.1.8",
+        "p-timeout": "^4.1.0"
+    }
+}
